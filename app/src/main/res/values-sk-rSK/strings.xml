@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Expense</string>
+    <string name="btn_addExpense">Pridaj</string>
+    <string name="btn_reports">Reporty</string>
+</resources>
