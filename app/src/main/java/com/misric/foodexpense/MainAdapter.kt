@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainAdapter(var mContext: Context, var expenses: MutableList<Expense>, var onExpenseListener: OnExpenseListener, var res: Resources, var packNm: String) :
 RecyclerView.Adapter<MainAdapter.MyViewHolder>() {
-    // test ver 2
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         var layoutInflater = LayoutInflater.from(mContext)
         var recView = layoutInflater.inflate(R.layout.recycler_main, parent, false)
